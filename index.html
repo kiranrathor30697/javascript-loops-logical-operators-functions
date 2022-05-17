@@ -136,16 +136,56 @@
             // alert(y);
             // alert(typeof(y));   
                
-            let a = "904";
-            alert(typeof(a));
-            let b = Boolean(a);
-            alert(typeof(b));
-            let c = "";
-            alert(typeof(c));
-            let d = Boolean(c);
-            alert(typeof(d));
+            // let a = "904";
+            // alert(typeof(a));
+            // let b = Boolean(a);
+            // alert(typeof(b));
+            // let c = "";
+            // alert(typeof(c));
+            // let d = Boolean(c);
+            // alert(typeof(d));
+            
 
+            // let user = {
+            //     name: "kavita",
+            //     money: 1000,
 
-        </script>
+            //     toString() {
+            //         return `{name: "${this.name}"}`;
+            //     },
+
+            //     valueOf() {
+            //         return this.money;
+            //     }
+
+            // };
+
+            //     alert(user); 
+            //     alert(+user);
+            //     alert(user + 100);
+            
+
+            //This object method
+            // let user = {
+            // firstName: "kkk",
+            //     myFri() {
+            //         let arrow = () => alert(this.firstName);
+            //         arrow();
+            //     }
+            // };
+
+            // user.myFri(); 
+
+            function User(name) {
+                this.name = name;
+                this.isAdmin = false;
+            }
+
+                let user = new User("Anjali");
+
+                alert(user.name); 
+                alert(user.isAdmin);
+      
+            </script>
     </body>
 </html>
